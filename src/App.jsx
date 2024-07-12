@@ -1,10 +1,20 @@
 import { useState } from 'react'
+import TabBar from './components/tab_bar'
 
 function App() {
 
   return (
     <>
-      <h1>React App</h1>
+      <div id= "root">
+
+        <header>
+          <nav>
+            <TabBar id='nav'/>
+          </nav>
+        </header>
+        
+
+      </div>
     </>
   )
 }
